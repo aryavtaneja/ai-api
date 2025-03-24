@@ -1,1 +1,17 @@
 .env
+coverage/
+*.log
+node_modules/
+dist/
+build/
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+.vscode/
+*.iml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

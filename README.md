@@ -52,3 +52,10 @@ Use Prisma for database migrations:
 - Development:
   - prisma ^6.5.0
   - nodemon ^3.1.9
+
+## Running Tests
+1. Ensure your environment variables are set up correctly.
+2. Run the tests using the following command:
+   ```sh
+   npm test
+   ```
