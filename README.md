@@ -1,5 +1,7 @@
 # AI API
 
+A quick Express.js project that sets up a basic API backend for an AI answers service. Includes endpoints for user authentication, asking questions, and retrieving lists of users and questions asked.
+
 ## Setup
 1. Clone the repository.
 2. Install dependencies using your preferred package manager.
@@ -7,6 +9,7 @@
 ## Running
 1. Set up environment variables (see below).
 2. Build and run the project.
+3. Docs are available at the `/api-docs` endpoint.
 
 ## Docker
 2. Build the image: `docker build -t ai-api .`
@@ -49,9 +52,16 @@ Use Prisma for database migrations:
   - langchain ^0.3.19
   - morgan ~1.9.1
   - openai ^4.87.4
+  - swagger-jsdoc ^6.2.8
+  - swagger-ui-express ^5.0.1
 - Development:
-  - prisma ^6.5.0
+  - chai ^5.2.0
+  - chai-http ^5.1.1
+  - cross-env ^7.0.3
+  - mocha ^11.1.0
   - nodemon ^3.1.9
+  - prisma ^6.5.0
+  - sinon ^19.0.4
 
 ## Running Tests
 1. Ensure your environment variables are set up correctly.
